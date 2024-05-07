@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+
+#fondo,#audio{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title{
+    top: 0;
+    position: relative;
+    padding: 100px;
+}
+
+.title h1{
+    font-family:  'Roboto', sans-serif;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(63, 31, 83, 0.486);
+    border: 2px solid rgba(70, 227, 255, 0.911);
+    border-radius: 200px;
+    padding: 10px;
+}
+
+#numero{
+    font-size: 20px;
+}
+
+.get-number{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.get-number input{
+    width: 100vh;
+}
+
+
+#enviar{
+    font-size: 20px;
+    background-color:rgb(42, 99, 165);
+}
+
+#enviar:hover{
+    background-color: rgb(54, 185, 65);
+}
+
+.count{
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -2%;
+    padding-right: 2%;
+}
+
+.count h1{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.pista{
+    display: flex;
+    justify-content:start;
+    padding-left: 21.3%;
+}
+
+#txtpista{
+    visibility: hidden;
+}

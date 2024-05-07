@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/scripts/scripts.js"></script>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Adivina un numero</title>
+</head>
+<body>
+   <audio src="/assets/audio/music.mp3" id="audio"></audio>
+   <img src="/assets/fondo.png" alt="" width="200" id="fondo">
+
+    <div class="title">
+        <h1>GUESS THE NUMBER</h1>
+    </div>
+    <div class="get-number">
+        <input type="text" id="numero">
+        <button onclick="numeroAleatorio()" id="enviar">Iniciar</button>
+    </div>
+    <div class="count">
+        <h1>Intentos: <span id="intentos">0</span></h1>
+    </div>
+
+    <div class="pista">
+    <button type="button" id="btn-pista" onclick="show()">pista</button>
+    <h1 id="txtpista"></h1>
+    </div>
+</body>
+
+</html>
